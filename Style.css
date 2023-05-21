@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+ 
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+  }
+  h1 {
+    text-align: center;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 15;
+  }
+ 
+  
+  
+  body{
+      background: linear-gradient(114.3deg, rgb(19, 126, 57) 0.2%, rgb(8, 65, 91) 68.5%);
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      margin: 0%;
+  }
+  
+  
+  html {
+    font-size: 16px;
+  }
+  .wrapper {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 58%;
+    left: 50%;
+  }
+  .container {
+    width: 70vmin;
+    height: 70vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vmin;
+  
+  
+  }
+  .button-option {
+    
+      display: inline-block;
+      height: 22vmin;
+      width: 22vmin;
+      font-size: 75px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      outline: none;
+      color: #fff;
+      background-color: #1c9579;
+      border: none;
+    
+      border-radius: 8px;
+      box-shadow: 0 9px #999;
+    }
+    
+    .button-option:hover {background-color: #3e8e41}
+    
+    .button-option:active {
+      background-color: #3e8e41;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    
+  
+  }
+  #restart {
+    font-size: 1.3em;
+    padding: 1em;
+    border-radius: 8px;
+    background-color:#030303;
+    text-shadow: white;
+    color: #f5f4f5;
+    border: none;
+    position: relative;
+    margin: 1.5em auto 0 auto;
+    display: block;
+  }
+  #restart:hover{
+    background-color: #666;
+  }
+  #restart:active {
+    background-color: #303230;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .popup {
+    background: linear-gradient(135deg, rgb(8, 65, 91), rgb(19, 126, 57));
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+    font-size: 12vmin;
+  }
+  #new-game:hover{
+    background-color: #666;
+  }
+
+  #new-game {
+    font-size: 0.6em;
+    padding: 0.5em 1em;
+    background-color: #0a0027;
+    color: #ffffff;
+    border-radius: 0.2em;
+    border: none;
+  }
+  #message {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1em;
+  }
+  .popup.hide {
+    display: none;
+  }
